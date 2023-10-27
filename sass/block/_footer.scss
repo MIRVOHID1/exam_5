@@ -1,0 +1,42 @@
+.footer{
+    padding: 54px 0;
+    background-color: $primary-color;
+    margin-top: 200px;
+}
+.footer__end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include for-phone{
+        display: block;
+        text-align: center;
+    }
+
+    &__left{
+        color: $text-color;
+        font-family: $second_fonts;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+
+        @include for-phone{
+            display: block;
+            text-align: center;
+            padding-top: 64px;
+        }
+
+        
+    }
+    &__right{
+        display: flex;
+        column-gap: 24px;
+       
+        @include for-phone{
+          justify-content: center;
+          padding-top: 85px;
+        }
+    }
+
+}

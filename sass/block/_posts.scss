@@ -1,0 +1,88 @@
+.wrapinput{
+    margin-top: 85px;
+    border-bottom: 1px #6D6E76 solid;
+    padding-bottom: 32px;
+    max-width: 870px;
+    &__input{
+        display: flex;
+        width: 100%;
+        padding: 24px;
+        align-items: center;
+        gap: 10px;
+        border-radius: 2px;
+        border: 1px solid rgba(109, 110, 118, 0.50);
+        margin: 165px 0 54px 0;
+    }
+}
+// .allNews{
+//     display: flex;
+//     justify-content: space-between;
+//     @include for-tablet{
+//         flex-direction: column;
+//         align-items: center;
+//     }
+//     img{
+//        min-width: 447px; 
+//        max-width: 447px;
+//        height: 312px;
+
+//        @include for-tablet{
+//         max-width: 630px;
+//         width: 100%;
+//        }
+//     }
+
+// }
+// .card{
+//     display: flex;
+//     flex-direction: column;
+//     row-gap: 32px;
+// }
+// .allNewsTitle{
+//     padding: 20px 20px;
+//     h4{
+//         font-family: 'Sen-bold';
+//         font-weight: 700;
+//         font-size: 32px;
+//         line-height: 36px;
+//         letter-spacing: -2px;
+//         color: #232536;
+//         max-width: 800px;
+//         overflow: hidden;
+//         @include for-tablet{
+//             font-weight: 600;
+//             font-size: 28px;
+//             line-height: 28px;
+//             max-width: 630px;
+//             text-align: center;
+//             overflow: hidden;
+//         }
+//         @include for-phone{
+//             font-size: 19px;
+//             letter-spacing: -1px;
+//             line-height: 19px;
+//         }
+//     }
+//     p{
+//         font-weight: 400;
+//         font-size: 16px;
+//         line-height: 28px;
+//         color: #6D6E76;
+//         padding-top: 24px;
+//         padding-bottom: 15px;
+//         @include for-tablet{
+//             max-width: 630px;
+//         }
+//         @include for-phone{
+//             font-size: 12px;
+//             line-height: 15px;
+//         }
+//     }
+//     .data_one{
+//         padding-top: 10px;
+//         @include for-tablet{
+//             text-align: right;
+//             font-size: 14px;
+//         }
+//     }
+// }

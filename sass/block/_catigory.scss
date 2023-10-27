@@ -1,0 +1,44 @@
+.business{
+    margin: 0 auto;
+    margin-top: 85px;
+    background: var(--Lavender, #F4F0F8);
+    h1{
+        color: var(--Black, #232536);
+        text-align: center;
+        font-family: $first-fonts;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 64px; 
+        letter-spacing: -2px;
+        padding: 80px 0 16px 0;
+    } 
+    p{
+        text-align: center;
+        max-width: 500px;
+        margin: 0 auto;
+        color: var(--Medium-grey, #6D6E76);
+        font-family: $second-fonts;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        margin-bottom: 32px; 
+    } 
+    h4{
+        text-align: center;
+        padding-bottom: 80px;
+    }
+}
+form{
+    width: 100%;
+}
+.input{
+    margin-top: 57px;
+    width: 100%;
+    padding: 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.50);
+}
